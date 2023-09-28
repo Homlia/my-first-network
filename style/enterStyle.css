@@ -1,0 +1,128 @@
+
+
+.enter-wrraper {
+    background-color: #336b87;
+}
+
+.enter-section {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 350px;
+    border-radius: 4vmin;
+    align-items: center;
+    justify-content: center;
+    background-color: #90afc5;
+
+}
+
+
+/* #90afc5 header */
+/* #336b87 content */
+/* #2a3132 aside */
+/* #763626 footer */
+
+.enter-section form {
+    text-align: center;
+}
+
+.enter-section h1 {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.enter-section input{
+    display: flex;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    padding: 2px;
+    /* border: 2px solid black; */
+}
+
+.enter-section input:focus {
+    border: 2px solid black;
+    padding: 0;
+}
+
+.enter-section h2 {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.enter-section button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    font-size: 1.5rem;
+    padding: 5px 50px;
+    border: 3px solid black;
+    border-radius: 0.8rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+transition: all 0.3s;
+}
+
+.enter-section button:hover, 
+.enter-section button:focus {
+    border: 3px solid #336b87;
+}
+
+.enter-section a {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+}
+
+.enter-section a:hover,
+.enter-section a:focus {
+    border-bottom: 2px solid #336b87;
+    margin-bottom: -3px;
+}
+
+
+
+
+/* registration */
+
+.registration-section {
+    height: 600px;
+}
+
+.registration-radio-block,
+.registration-option{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.registration-radio-block label {
+    cursor: pointer;
+    max-width: 50%;
+}
+
+.registration-radio-block input {
+    margin-bottom: 0;
+    
+}
+
+.registration-radio-block p {
+    font-size: 1.5rem;
+    margin-top: -1.3rem;
+    padding-left: 20px;
+}
+
+.registration-option option{
+    font-size: 1rem;
+    height: 3rem;
+}

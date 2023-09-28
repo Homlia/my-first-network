@@ -1,0 +1,22 @@
+
+
+/* Основные цвета */
+
+
+/* #90afc5 header */ 
+/* #336b87 content */
+/* #2a3132 aside */
+/* #763626 footer */
+
+
+.display__inline-block {
+    display: inline-block !important;
+}
+
+.display__table {
+    display: table !important;
+}
+
+.display__none {
+    display: none !important;
+}

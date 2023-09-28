@@ -1,0 +1,179 @@
+
+/* Стартавая настройка ститей*/
+/* ######################################### */
+
+.wrraper {
+    height: 100%;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 50px;
+    padding: 30px;
+    background-color: #2b616d;
+}
+
+.header-link {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+main {
+    display: flex;
+    min-height: calc(100% - 100px);
+}
+
+aside {
+    background-color: #b2dbd5;
+    padding: 20px 30px;
+    min-width: 150px;
+    max-width: 300px;
+}
+
+section.content {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #fa8d62;
+}
+
+
+
+
+
+
+/* Основные стили */
+/* ######################################### */
+
+
+
+/* header */
+
+
+
+
+/* main */
+
+
+
+/* side */
+
+aside nav {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 150px);
+}
+
+
+.side-list a{
+    color: #2b616d;
+}
+
+.side-list li {
+    margin-bottom: 1rem;
+}
+
+.side-list li>a {
+    font-size: 1.5rem;
+    
+    padding: 10px 10px 0 10px;
+    cursor: pointer;
+}
+
+.side-list li>a:hover {
+    border-bottom: 2px solid #2b616d;
+    margin-bottom:  calc(1rem - 2px);
+}
+
+.side-icon-settings {
+    width: 60px;
+    height: 60px;
+}
+
+.side-icon-settings img{
+    cursor: pointer;
+    width: 100%;
+}
+
+/* content */
+
+.content>section {
+    margin-bottom: 30px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+}
+
+.basic-info {
+    display: flex;
+    width: 100%;
+}
+
+.basic-info__avatar {
+    max-width: 20vw;
+    max-height: auto;
+    /* border: 2px solid black; */
+    margin-right: 50px;
+}
+
+.basic-info__avatar img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.basic-info__information {
+    margin-right: 30px;
+    
+}
+
+.basic-info__information h2 {
+    font-size: 2.5rem;
+}
+
+.basic-info__information div {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.basic-info__information .phone p{
+    letter-spacing: 5px;
+}
+
+
+
+
+.gallery h2 {
+    display: inline;
+    font-size: 2rem;
+}
+
+.gallery h2:hover {
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+/* footer */
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#000000;
+    font-size: 1rem;
+}

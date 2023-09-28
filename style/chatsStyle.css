@@ -1,0 +1,81 @@
+.search-chats {
+    position: relative;
+}
+
+.search-chats input {
+    width: 100%;
+    height: 50px;
+    background-color: #b2dbd5;
+    margin-top: -30px;
+    border-radius: 25px;
+    padding: 0 20px;
+    padding-right: 80px;
+    font-size: 20px;
+}
+
+.search-chats button {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    height: 50px;
+    width: 70px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #2b616d;
+}
+
+
+.search-chats button>div {
+
+    font-size: 30px;
+    /* задает размер иконки */
+    top: 5px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 3px solid #52C8E4;
+    position: relative;
+    border-radius: 50%;
+}
+
+.search-chats button>div:before {
+    content: "";
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    right: -14px;
+    bottom: -5px;
+    background: #52C8E4;
+    transform: rotate(45deg);
+}
+
+
+
+.chat-block {
+    width: 100%;
+}
+
+.chat {
+    display: flex;
+    height: calc(66px + 2.5rem);
+    background-color: #a2d7e4;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: black;
+}
+
+.chat figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.chat-info {
+    margin-left: 50px;
+}
+
+.chat-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,78 @@
+.content-seting {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    margin-bottom: -30px;
+}
+
+
+.basic-info-section {
+    width: 100%;
+    height: calc(100vh - 100px);
+    
+}
+
+.setting-nav {
+    padding: 30px;
+    width: 150px;
+    min-height: 100%;
+    border-right: 2px solid black;
+    font-size: 1.5rem;
+}
+
+.setting-nav li {
+    cursor: pointer;
+    display: inline-block;
+    margin: -20px;
+    padding: 10px;
+    padding-left: 0;
+    padding-bottom: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.setting-nav li:hover {
+    border-bottom: 3px solid black;
+    margin-bottom: calc(1.5rem - 3px);
+}
+
+.setting-pages {
+    width: 100%;
+    padding: 30px;
+    font-size: 1.5rem;
+}
+
+.setting-pages table {
+    display: table;
+    width: 100%;
+}
+
+.setting-pages td {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.setting-pages input {
+    width: 250px;
+    padding: 2px 5px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    margin-left: 15px;
+    font-size: 1.2rem;
+}
+
+
+.setting-pages select {
+    width: 250px;
+    margin-left: 205px;
+    background-color: white;
+    padding: 5px;
+    padding: 2px 7px;
+    border: 2px solid black;
+}
+
+.setting-pages button {
+    font-size: 1.5rem;
+    background-color: #90afc5;
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
